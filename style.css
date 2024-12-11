@@ -1,0 +1,35 @@
+body {
+    background-color: darkslategray;
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin:0;
+}
+
+button {
+    background-color: darkgray;
+    color: black;
+    font-family: "Reddit Sans Condensed", sans-serif;
+}
+
+.passo {
+    display:none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 80%;
+}
